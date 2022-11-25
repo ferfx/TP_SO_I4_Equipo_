@@ -1,0 +1,12 @@
+ROCIO BESSIO
+FERNANDO OVELAR
+PEREZ CARDENAL PATRICIO
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+En la rama TESTING el fondo es de color AZUL.
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+En la rama DESARROLLO el fondo es de color AMARILLO.
+C- ¿Qué color de fondo tiene su página en el MASTER?
+En la rama MAIN el fondo es de color BLANCO, debido a que nos quedo un conflicto de MERGE a la hora de realizar dichos merges con 2 ramas diferentes y un mismo cambio.
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+Quedo el favicon que agrego BETA.
