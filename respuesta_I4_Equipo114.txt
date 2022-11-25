@@ -10,3 +10,18 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 En la rama MAIN el fondo es de color BLANCO, debido a que nos quedo un conflicto de MERGE a la hora de realizar dichos merges con 2 ramas diferentes y un mismo cambio.
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 Quedo el favicon que agrego BETA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si, a todos debido a los multiples cambios sobre las mismas ramas. Al estar en constante cambio teniamos que realizar los debidos [GIT PULL[ 
+F- ¿Qué problemas surgieron?
+1) commits en el aire sin pushear.
+2) Conflictos en el codigo por los distintos merge
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+1) Debiamos regresar a la rama que tenga el commit sin pushear y realizar un [git fetch -p] para actualizar nuestra rama remota y poder realizar dicho push.
+2) Para solucionar los conflictos que quedan en codigo luego de los distintos merge que se realizan luego de los push, una de las soluciones es meterte en el codigo y seleccionar lo que deseamos dejar (Borrar el resto).
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Si se realiza el push -f estariamos forzando el pusheo y esto sobreescribiria los archivos actualizados sin importar las referencias anteriores.
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+Eliminar las lineas de codigo que señalan el conficto de merge. Dejando unicamente los <p></p>.
